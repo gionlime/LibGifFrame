@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GlideFrameSequenceIntegration</string>
+
+    <string-array name="entries_spinner">
+        <item>336x336_gif</item>
+        <item>144x144_webp</item>
+        <item>144x144_gif</item>
+        <item>116x70_gif</item>
+        <item>990_1050_webp</item>
+    </string-array>
+
+    <string-array name="transformation">
+        <item>No Transformation</item>
+        <item>CenterCrop</item>
+        <item>CircleCrop</item>
+        <item>RoundedCorners</item>
+        <item>CenterInside</item>
+        <item>FitCenter</item>
+    </string-array>
+</resources>

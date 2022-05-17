@@ -1,0 +1,3 @@
+include ':libgif'
+include ':app'
+include ':lottie'
