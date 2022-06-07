@@ -46,7 +46,7 @@ class MainAdapter extends RecyclerView.Adapter<MainAdapter.Holder> {
     private final List<ImageModel> modelList = new ArrayList<>();
 
     {
-        modelList.add(new ImageModel(R.drawable.gif_336x336, "gif图可完美展示，也完美支持transform", 336, 336));
+        modelList.add(new ImageModel(R.drawable.xiaohuangya, "gif图可完美展示，也完美支持transform", 336, 336));
         modelList.add(new ImageModel(R.drawable.webp_144x144, "webp动图Glide默认不支持，使用FS后可以支持", 144, 144));
         modelList.add(new ImageModel(R.drawable.gif_144x144, "上面webp动图的gif版本，都可以支持", 144, 144));
         modelList.add(new ImageModel(R.drawable.webp_990x1050, "webp动图Glide默认不支持，使用FS后可以支持", 990, 1050));
